@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resident Evil - UTS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/93bc867454.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header"><r>H</r>ome</a></li>
+                        <li><a href="#about"><r>A</r>bout It</a></li>
+                        <li><a href="#series"><r>S</r>eries</a></li>
+                        <li><a href="#portfolio"><r>R</r>ecommendations</a></li>
+                        <li><a href="#contact"><r>C</r>ontact Me</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1><span>R</span>esident <span>E</span>vil</h1>
+                    <p><r>F</r>ranchise</p>
+                </div>
+            </div>
+        </div>
+
+        <!--- ABOUT --->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/about.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"><r>A</r>bout It</h1>
+                        <p>Resident Evil, yang dikenal di Jepang sebagai Biohazard, adalah serial permainan video horor Jepang dan waralaba media yang dibuat oleh Capcom. 
+                            Ini terdiri dari game survival horror game survival horror, third-person shooter, dan first-person shooter. 
+                            Waralaba telah berkembang menjadi serial film aksi langsung, film animasi, serial televisi, buku komik, novelisasi, novel, drama audio, dan media serta barang dagangan lainnya.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('creator')">Creator</p>
+                            <p class="tab-links" onclick="opentab('history')">History</p>
+                            <p class="tab-links" onclick="opentab('adaptation')">Adaptation</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="creator">
+                            <ul>
+                                <li>Resident Evil <span>pertama kali dibuat</span> oleh Shinji Mikami dan Tokuro Fujiwara dan dirilis untuk PlayStation pada tahun 1996. 
+                                    Dikreditkan untuk mendefinisikan game bergenre horor bertahan hidup dan mengembalikan genre zombie ke genre yang terkenal dan populer. Hal ini juga mempengaruhi minat dalam genre zombie dikalangan.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="history">
+                            <ul>
+                                <li><span>Berawal </span>dari tahun 1996 Resident Evil hingga sekarang masih berlanjut cerita dan serialnya. 
+                                    Pada Resident Evil 4 (2005), bergeser ke aksi pemotretan yang lebih dinamis yang dapat mempengaruhi evolusi survival horror dan genre orang ketiga, 
+                                    mempopulerkan pandangan orang ketiga "over-the-shoulder" dan pada Resident Evil 7: Biohazard (2017) memindahkan serial ini ke perspektif orang pertama.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="adaptation">
+                            <ul>
+                                <li><span>Resident Evil </span>adalah franchise video game terlaris Capcom, dengan 117 juta unit terjual di seluruh dunia pada Juni 2021.
+                                    Serial ini telah berkembang menjadi serial film live-action, film animasi, serial televisi, buku komik, novelisasi, novel, drama audio, dan media serta barang dagangan lainnya yang
+                                    menjadikan Resident Evil sebagai waralaba dengan pendapatan tertinggi dalam genre horor dan zombie.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- SERIES --->
+        <div id="series">
+            <div class="container">
+                <h1 class="sub-title"><r>S</r>eries</h1>
+                <div class="series-list">
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Video Game</h2>
+                        <p>Video game dimulai pada tahun 1996 dengan kemunculan game pertama dari series tersebut yaitu 'Resident Evil', lalu pada tahun 1998 muncul sequelnya yaitu 'Resident Evil 2'. Series game ini menjadi populer dan dikenal saat munculnya seri ke-4 yaitu 'Resident Evil 4'</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <h2>Film Series</h2>
+                        <p>Resident Evil adalah serial film horor aksi berdasarkan franchise video game Jepang oleh Capcom. Studio Jerman Constantin Film membeli hak untuk mengadaptasi serial tersebut pada Januari 1997. Pada tahun 2000, Paul W. S. Anderson diumumkan sebagai penulis dan sutradara untuk Resident Evil.</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil_(film_series)">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-film"></i>
+                        <h2>Animation</h2>
+                        <p>Film animasi komputer pertama untuk franchise ini adalah Biohazard 4D-Executer. Itu adalah film 3D pendek yang diproduksi untuk taman hiburan Jepang dan tidak menampilkan karakter apa pun dari permainannya. Mulai tahun 2008, serangkaian film animasi komputer panjang fitur telah dirilis. Film-film ini berlangsung dalam kontinuitas yang sama dengan permainan seri. Salah satu animasinya adalah Resident Evil: Vendetta</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil:_Vendetta">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-tv"></i>
+                        <h2>TV Series</h2>
+                        <p>Resident Evil adalah serial televisi streaming horor aksi Amerika yang dikembangkan oleh Andrew Dabb untuk Netflix. Secara longgar didasarkan pada seri video game dengan nama yang sama oleh Capcom, ini adalah adaptasi televisi kedua dari waralaba setelah miniseri animasi Infinite Darkness (2021), dan adaptasi live-action ketiga setelah seri film dengan nama yang sama dan film reboot Welcome to Raccoon City (2021). Serial ini diatur di alam semestanya sendiri tetapi menampilkan alur cerita seri video game sebagai latar belakang dan dasarnya.</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil_(TV_series)">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book"></i>
+                        <h2>Novel</h2>
+                        <p>Novel Resident Evil pertama adalah novel Hiroyuki Ariga berjudul Biohazard: The Beginning, diterbitkan pada tahun 1997 sebagai bagian dari buku The True Story of Biohazard, yang diberikan sebagai bonus pre-order dengan Biohazard versi Sega Saturn. Menceritakan awal dari Resident Evil asli, di mana Chris menyelidiki hilangnya temannya yang hilang, Billy Rabbitson.</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book-open"></i>
+                        <h2>Comic Book</h2>
+                        <p>Pada tahun 1997, Marvel Comics menerbitkan komik prolog edisi tunggal berdasarkan Resident Evil asli, dirilis melalui hadiah promosi bersama dengan game PlayStation asli. Pada tahun 1998, WildStorm mulai memproduksi seri buku komik bulanan berdasarkan dua game pertama, berjudul Resident Evil: The Official Comic Magazine, yang berlangsung selama lima edisi. Empat edisi pertama diterbitkan oleh Image, sedangkan Wildstorm sendiri menerbitkan edisi kelima dan terakhir. Setiap edisi adalah kompilasi cerita pendek yang merupakan adaptasi dari peristiwa dari permainan dan cerita sampingan terkait.</p>
+                        <a href="https://en.wikipedia.org/wiki/Resident_Evil">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- ABOUT ME --->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"><r>R</r>ecommendations</h1>
+                <div class="recommend-list">
+                    <div class="recommend">
+                        <img src="img/re7Bio.jpg">
+                        <div class="layer">
+                            <h3>Resident Evil 7 Biohazard</h3>
+                            <p>Resident Evil VII membawa kerangka survival horror khas seri ini ke perspektif baru dan hanya kehilangan sedikit saja kejutan di pembuatannya. Tentu, babak ketiga agak kurang bersemangat dan variasi musuh yang sedikit, tetapi sebaliknya, setting, karakter, teka-teki, manajemen sumber daya, dan cerita Resident Evil VII sama menyenangkan dan menyeramkan seperti beberapa game terbaik di seri.</p>
+                            <a href="http://residentevil7.com/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="recommend">
+                        <img src="img/re4.jpg">
+                        <div class="layer">
+                            <h3>Resident Evil 4</h3>
+                            <p>Resident Evil 4 mentransisikan seri dari masa lalu yang dikendalikan platform tank, bergerak lambat, bertahan hidup ke pengalaman yang aksi yang lebih berorientasi dan sinematik. Membawa gerakan dan penempatan dari waktu ke waktu sesuai dengan atmosfer yang telah disempurnakan Capcom selama bertahun-tahun, meskipun berfungsi dengan baik sebagai permainan mandiri atau titik masuk bagi pendatang baru.</p>
+                            <a href="https://www.residentevil.com/4/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="recommend">
+                        <img src="img/re2Remake.png">
+                        <div class="layer">
+                            <h3>Resident Evil 2 Remake</h3>
+                            <p>Memperluas di luar mansion Resident Evil pertama di Raccoon City yang lebih besar, Resident Evil 2 memberi lebih banyak wawasan tentang siapa yang bertanggung jawab atas wabah tersebut, dan betapa manipulatif dan kuatnya Umbrella Corporation. Remake-nya adalah versi untuk dimainkan sekarang, menawarkan kontrol pertempuran orang ketiga yang jauh lebih baik sambil menceritakan sebagian besar cerita yang sama untuk Leon dan Claire. Terlepas dari tindakan yang lebih baik, juga tidak menghilangkan kengerian yang ada.</p>
+                            <a href="https://www.residentevil2.com/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn" onclick="showWindow()">See more</button>
+            </div>
+        </div>
+        <!--- CONTACT --->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title"><r>C</r>ontact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>bintang135.bp@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>081326073055</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100006707955856"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/ragna0908"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href="https://www.instagram.com/arhan_w_r/"><i class="fa-brands fa-instagram"></i></i></a>
+                            <a href="https://www.youtube.com/channel/UCNrkSUDHefA8PyWYkA_eERA/videos"><i class="fa-brands fa-youtube"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg">hai ^-^</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Arhan Windu Rizki Putra Budianto</p>
+                <p>Resident Evil Official Website @ <a href="https://www.residentevil.com">Click Here!</a></p>
+            </div>
+        </div>
+        <a href="#" class="top-button">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+
+
+        <!---- SCRIPT ---->
+        <script>
+            const topButton = document.querySelector(".top-button");
+            window.addEventListener("scroll", () => {
+                if(window.pageYOffset > 100){
+                    topButton.classList.add("active");
+                }else{
+                    topButton.classList.remove("active");
+                }
+            })
+        </script>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script type="text/javascript">
+            function showWindow() {
+                window.open(
+                    "FlipBook/index.html",
+                    "My Recommendations",
+                    "width=1300, height=1300, toolbar=1, menubar=1, scrollbar=1"
+                );
+            }
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px"
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwVpjPGQQms8jQczFuFPaIizgEFcWLDiAPPRChJJjbVvfwsb7Z-q0nljaiP1paVShkg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+                
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => {
+                    msg.innerHTML = "Message berhasil dikirim"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                  })
+                  .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
